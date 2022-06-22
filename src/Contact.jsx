@@ -20,7 +20,7 @@ function handleChange(event){
 
 function handleClick(event){
   event.preventDefault();
-  axios.post("https://clubs-united.herokuapp.com//register",user)
+  axios.post("https://clubs-united.herokuapp.com/register",user)
   .then(res=>{
     //console.log(res)
     alert("Query Submitted "+user.name);
