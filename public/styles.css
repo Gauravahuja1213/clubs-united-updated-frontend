@@ -1,0 +1,72 @@
+.navbar a:hover{
+    color:aquamarine;
+}
+*{
+    font-family: 'Barlow', sans-serif;
+
+}
+.a,.q{
+color:skyblue;
+}
+
+div.started{
+    position:relative;
+    top:200px;
+}
+
+.c{
+    font-weight: bold;
+    width: 470px;
+}
+.logo{
+    height:300px;
+    width: 300px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.rounded{
+    margin-top: 20px;
+}
+.definition{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.card{
+    margin-top:30px;
+    length:300px;
+    width:300px;
+}
+.social-icon{
+    margin:20px 10px;
+}
+.base{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:rgb(53, 53, 53) ;
+    color:white;
+    
+}
+.worry{
+    color:red;
+}
+.form1{
+    margin-top:20px;
+}
+.fa-heart{
+    color:red;
+}
+.foot{
+    margin-top:100px;
+}
+.last{
+    margin-top:20px;
+}
+footer{
+    background-color:rgb(53, 53, 53);
+    padding-bottom: 20px;
+    color:white;
+}
+
+  .navigation{
+    background-color: black;
+  }
