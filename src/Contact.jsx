@@ -20,7 +20,7 @@ function handleChange(event){
 
 function handleClick(event){
   event.preventDefault();
-  axios.post("http://localhost:9002/register",user)
+  axios.post("https://git.heroku.com/clubs-united.git",user)
   .then(res=>{
     //console.log(res)
     alert("Query Submitted "+user.name);
