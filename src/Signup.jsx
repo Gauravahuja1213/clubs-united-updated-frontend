@@ -23,7 +23,7 @@ function handlebtn(event){
     event.preventDefault();
     const{name,email,password,repassword} =user3;
     if(name &&email && password && (password === repassword)){
-        axios.post("http://localhost:9002/signup",user3)
+        axios.post("https://gahuja-clubs-united-updated.herokuapp.com/signup",user3)
         .then(res=>{
             alert(res.data.message)
         navigate("/login")})

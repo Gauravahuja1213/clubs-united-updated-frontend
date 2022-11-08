@@ -20,7 +20,7 @@ function handleChange(event){
 
 function handleClick(event){
   event.preventDefault();
-  axios.post("http://localhost:9002/contact",user)
+  axios.post("https://gahuja-clubs-united-updated.herokuapp.com/contact",user)
   .then(res=>{
     //console.log(res)
     alert("Query Submitted "+user.name);

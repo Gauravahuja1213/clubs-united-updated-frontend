@@ -20,7 +20,7 @@ function handleChange(event){
 
 function handlebttn(event){
   event.preventDefault();
-  axios.post("http://localhost:9002/administrator",user7)
+  axios.post("https://gahuja-clubs-united-updated.herokuapp.com/administrator",user7)
   .then(res=>{
     alert(res.data.message)
     if(res.data.message==="Welcome Gaurav Ahuja")

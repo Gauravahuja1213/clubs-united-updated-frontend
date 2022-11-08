@@ -6,7 +6,7 @@ function Manager(){
     const [posts,setPosts] =useState([])
 
     useEffect(()=> {
-        axios.get("http://localhost:9002/admin")
+        axios.get("https://gahuja-clubs-united-updated.herokuapp.com/admin")
         .then(res=>{
             console.log(res)
             setPosts(res.data)
