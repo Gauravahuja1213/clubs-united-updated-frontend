@@ -1,4 +1,5 @@
 import React from "react";
+import "./pageClubs.css";
 function Card(props) {
   return (
     <div className="col-lg-4">

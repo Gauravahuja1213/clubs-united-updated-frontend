@@ -25,11 +25,7 @@ function Navbar() {
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav ml-auto nav-pills">
-                <li className="nav-item">
-                    <a className="nav-link"  href="/">
-                      Home
-                    </a>
-                  </li>
+                
                   <li className="nav-item">
                     <a  className="nav-link" href="/about">
                       About
@@ -43,6 +39,11 @@ function Navbar() {
                   <li className="nav-item">
                     <a className="nav-link" href="/contact">
                       Contact
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/">
+                      LogOut
                     </a>
                   </li>
                 </ul>

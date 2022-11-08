@@ -1,6 +1,7 @@
 .crimson {
     background-color: rgb(53, 53, 53);
     color:white;
+    
   }
  /*  min-height: 100vh; minimum height of page would be equal to available view-port height */
 @media only screen and (max-width: 480px)

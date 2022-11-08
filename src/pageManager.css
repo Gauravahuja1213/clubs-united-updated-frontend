@@ -1,0 +1,45 @@
+.bc-img{
+    background-image: url("./images/manager-page-img.jpg");
+    text-align: center;
+    font-weight: 1000;
+}
+table, th, td {
+    border:1px solid black;
+  }
+.tbl{
+    margin-top:5px;
+    margin-bottom:20px;
+}
+  @media only screen and (min-width : 320px) {
+    .tbl{
+        margin-left:350px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+.tbl{
+    margin-left:350px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.tbl{
+    margin-left:350px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.tbl{
+    margin-left:400px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.tbl{
+    margin-left:500px;
+}
+}

@@ -2,3 +2,37 @@
     background-image: url('./images/SVNIT_bg image.jpg');
     
   }
+  @media only screen and (min-width : 320px) {
+    .clubsboxes{
+        margin-left:250px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .clubsboxes{
+    margin-left:250px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .clubsboxes{
+    margin-left:250px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .clubsboxes{
+    
+    margin:-40px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .clubsboxes{
+    
+}
+}

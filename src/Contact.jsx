@@ -1,8 +1,8 @@
-// eslint-disable-next-line
 import React,{useState} from "react";
 import  { Navigate }  from "react-router-dom"
 import axios from "axios";
 import "./pageContact.css"
+import Navbar from "./Navbar";
 function Contact() {
 
 const [user,setUser]=useState({
@@ -20,7 +20,7 @@ function handleChange(event){
 
 function handleClick(event){
   event.preventDefault();
-  axios.post("https://clubs-united.herokuapp.com/register",user)
+  axios.post("http://localhost:9002/contact",user)
   .then(res=>{
     //console.log(res)
     alert("Query Submitted "+user.name);
@@ -30,9 +30,9 @@ function handleClick(event){
 
 return (
     <div className="contact-top contactcolor">
-      
+    <Navbar />
       <h1 className="text-center">Contact us</h1>
-      <div className="form1 fluid-container">
+      <div className="form1 fluid-container ">
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
             <form onSubmit={handleClick}>
@@ -84,6 +84,6 @@ return (
         </footer>
       </div>
     </div>
-  );
+  );              
 }
 export default Contact;

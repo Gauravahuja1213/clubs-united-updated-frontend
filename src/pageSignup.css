@@ -1,0 +1,60 @@
+.box{
+    text-align: center;
+    position : relative;
+    top:50px;
+    left:450px;
+    height:450px;
+    width:400px;
+    background-color:black;
+    color:white;
+    margin-bottom: 200px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    @media only screen and (max-width: 320px) {
+    position:relative;
+    left:500px;
+}
+}
+.btn{
+    margin-bottom:20px;
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .box{
+        position:relative;
+        left:350px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+.box{
+    position:relative;
+    left:350px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.box{
+    position:relative;
+    left:350px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.box{
+    position:relative;
+    left:500px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.box{
+    position:relative;
+    left:500px;
+}
+}

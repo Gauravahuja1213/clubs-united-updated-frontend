@@ -1,8 +1,12 @@
 import React from "react";
 import svnit_logo from "./images/svnit logo.jpg";
 import "./pageHome.css";
+import Navbar from "./Navbar";
 function Home() {
+  
   return (
+    <div>
+    <Navbar />
     <div className="crimson">
     <section id="header">
       <div className="container-fluid">
@@ -16,7 +20,7 @@ function Home() {
                     <strong> SVNIT's Student Chapters!!</strong>
                   </span>
                 </h1>
-                <a class="btn btn-primary btn-rounded rounded" href="/about">
+                <a className="btn btn-primary btn-rounded rounded" href="/about">
                   Get Started
                 </a>
               </div>
@@ -28,6 +32,7 @@ function Home() {
         </div>
       </div>
     </section>
+    </div>
     </div>
   );
 }

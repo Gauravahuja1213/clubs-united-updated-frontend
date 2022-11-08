@@ -33,7 +33,7 @@ const Sdata=[
     {
         imgsr:cev,
         title:"CEV",
-        content:"CEV is one of the prestigious technical student society at National Institute of Technology, Surat. Lead a 58 member core team and 100+ regular CEV members to spread technology, sciences, management, economics & Finance within and outside college boundaries.To suffice our Mission and Vision’s need, it organises talks, workshops, productive competitions like CaseStudy and technical quizzes. Started back in 2013 from a hostel room, CEV has its legacy of producing some of the most celebrated alumni from the college. It aims at developing a person from every dimension of knowledge, personality, and perception",
+        content:"CEV is one of the prestigious technical student society at National Institute of Technology, Surat.CEV spreads knowledge about technology, sciences, management, economics & Finance within and outside college boundaries.CEV organises talks, workshops, productive competitions like CaseStudy and technical quizzes.CEV has its legacy of producing some of the most celebrated alumni from the college. It aims at developing a person from every dimension of knowledge, personality, and perception",
         insta:"https://www.instagram.com/cevsvnit/"
     },
     {
@@ -51,7 +51,7 @@ const Sdata=[
     {
         imgsr:drishti,
         title:"Drishti",
-        content:"DRISHTI is responsible for spreading technical awareness in SVNIT and is comprised of a bunch of inquisitive members where each one of us is ready to share what we got through our experiences and experiments by the medium of various workshops, seminars, events and hands-on implementation.DRISHTI aims at designing different technologically prone projects like Exoskeleton, Computer Vision & ML applications, etc. Apart from this, DRISHTI is a constant representative in various National and International competitions like ABU Robocon, Indian Rover Challenge & Boeing Aeromodelling.",
+        content:"DRISHTI is responsible for spreading technical awareness in SVNIT and is comprised of a bunch of inquisitive members where each one of us is ready to share what we got through our experiences and experiments by the medium of various workshops, seminars, events and hands-on implementation.DRISHTI aims at designing different technologically prone projects like Exoskeleton, Computer Vision & ML applications, etc.",
         insta:"https://www.instagram.com/drishti.svnit/"
     },
     {
@@ -87,7 +87,7 @@ const Sdata=[
     {
         imgsr:nss,
         title:"NSS",
-        content:"National Service Scheme (NSS) is a permanent youth programme under the Ministry of Youth Affairs and Sports, Government of India and funded by Government of Tamil Nadu and Government of India in the ratio of 5:7.The motto of NSS is “NOT ME BUT YOU“. It underlines that the welfare of an individual is ultimately dependent on the welfare of the society as a whole. This expresses the essence of democratic living and upholds the need of selfless service and appreciation of the other man’s point of view and also consideration for fellow human beings.",
+        content:"National Service Scheme (NSS) is a permanent youth programme under the Ministry of Youth Affairs and Sports, Government of India and funded by Government of Tamil Nadu and Government of India.The motto of NSS is “NOT ME BUT YOU“. It underlines that the welfare of an individual is ultimately dependent on the welfare of the society as a whole.",
         insta:"https://www.instagram.com/nss_svnit/"
     },
     {
@@ -111,7 +111,7 @@ const Sdata=[
     {
         imgsr:spicmacy,
         title:"Spicmacy",
-        content:"The Society for the Promotion of Indian Classical Music And Culture Amongst Youth, often known by its initials (SPIC MACAY), is a voluntary youth movement which promotes Indian classical music, Indian classical dance, and other aspects of Indian culture; it is also a movement with chapters in over 200 towns and cities all over the world. ",
+        content:"The Society for the Promotion of Indian Classical Music And Culture Amongst Youth, often known by its initials (SPIC MACAY), is a voluntary youth movement which promotes Indian classical music, Indian classical dance, and other aspects of Indian culture. ",
         insta:"https://www.instagram.com/spicmacay_svnit/"
     },
     {

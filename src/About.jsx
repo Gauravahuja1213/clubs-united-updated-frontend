@@ -1,7 +1,9 @@
 import React from "react";
 import "./pageAbout.css"
+import Navbar from "./Navbar";
 function About() {
   return (
+    <div><Navbar />
     <div className="container-fluid definition aboutcolor">
     <div className="row">
       <div className="col-10 mx-auto">
@@ -44,6 +46,7 @@ function About() {
       </ul>
       <h1>Want to know more about them?</h1>
       <a className="btn btn-primary btn-rounded rounded" href="/clubs">Know more</a>
+    </div>
     </div>
     </div>
     </div>
